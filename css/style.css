@@ -199,8 +199,11 @@ header nav {
 .form-control {
     background-color: #323650;
     border: none;
-    color: #adadad !important;
+    color: #ffffff !important;
     direction: rtl;
+}
+.form-control::placeholder{
+    color: #ccc !important;
 }
 
 .form-control:focus {
@@ -261,4 +264,20 @@ header nav {
 .btn-insta .btn-insta-id i {
     font-size: 30px;
     color: #ffffff;
+}
+footer .f-menu ul li a:hover{
+    color: #6A67F4 !important;
+}
+footer .email .btn-send{
+    background-color: #efa1ac;
+    border: unset;
+    color: block;
+    font-size: 25px;
+    border-radius: 5px 0 0 5px;
+}
+footer .email .btn-send:hover{
+    color: #ffffff !important;
+}
+footer .social ul li a span:hover{
+    color: #6A67F4 !important;
 }
